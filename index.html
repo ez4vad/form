@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
 </head>
+
 <body>
-    
+    <main class="main">
+        <h1 class="h1">Create an Account</h1>
+        <div class="main">
+            <div class="bg">
+                <div class="name">
+                    <label for="formf" class="text">First Name</label>
+                    <input type="text" id="formf" name="first_name" class="input">
+                </div>
+                <div class="name">
+                    <label for="forml" class="text">Last Name</label>
+                    <input type="text" id="forml" name="second_name" class="input">
+                </div>
+            </div>
+            <div class="email">
+                <p class="text">E-mail</p>
+                <input type="email" class="input_email">
+                <p class="bottom_email">We'll never share your email with anyone else.</p>
+            </div>
+            <div class="sex">
+                <input name="sex" value="male" type="radio"> Male
+                <input name="sex" value="female" type="radio"> Female
+            </div>
+            <div>
+                <div class="bg">
+                    <div class="country">
+                        <p class="text">Country</p>
+                        <select id="cities" class="input input_city">
+                            <option value=""></option>
+                            <option value="">Ukraine</option>
+                            <option value="">Poland</option>
+                            <option value="">Germany</option>
+                        </select>
+                    </div>
+                    <div class="country">
+                        <p class="textt">City</p>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div>
+                    <div class="button_position">
+                        <form action="profil/index.html">
+                        <button class="button">Sign Up</button>
+                        </form>
+                    </div>
+                    <p class="bottom_text">By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                        <a href="" class="bottom_link">Terms of Use</a> and <a href="" class="bottom_link">Privacy
+                            Policy</a>
+                    </p>
+                </div>
+                <footer class="footer">
+                    <p class="p">Have an account?</p>
+                    <a href="" class="footer_link">Log In</a>
+                </footer>
+    </main>
 </body>
+
 </html>

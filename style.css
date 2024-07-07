@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+}
+.main {
+    width: 600px;
+    height: 530px;
+    background-color: white;
+    margin: 0 auto;
+}
+.h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+.textt {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+.input {
+    width: 245px;
+    height: 38px;
+    top: 29px;
+    gap: 0px;
+    opacity: 0px;
+}
+.input:hover {
+    border-color: #007BFF;
+}
+.email {
+    padding-left: 35px;
+    color: #545454;
+}
+.input_email {
+    width: 530px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+}
+.input_email:hover {
+    border-color: #007BFF;
+}
+.bottom_email {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #969696;
+}
+.bottom_text {
+    color: #969696;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+
+}
+.bottom_link {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: #007BFF;
+    list-style: none;
+    text-decoration: none;
+}
+.button {
+    width: 535px;
+    height: 38px;
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button_position {
+    padding-left: 35px;
+    padding-bottom: 22px;
+}
+.bg {
+    padding-left: 35px;
+    padding-bottom: 60px;
+}
+.name {
+    width: 50%;
+    float: left;
+    color: #545454;
+}
+.sex {
+    padding-left: 35px;
+    color: #545454;
+}
+.country {
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+    color: #545454;
+}
+.input_city {
+    height: 44px;
+}
+.footer {
+    margin-top: 20px;
+    height: 55px;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0 0 2px 0 #E4E4E4;;
+    text-align: center;
+    color: #545454;
+}
+.footer_link {
+    text-decoration: none;
+    color: #007BFF;
+}
+.p {
+    display: inline-block;
+    padding-right: 20px;
+}
